@@ -155,3 +155,37 @@ pre {
 .graph-table > .value {
 	text-align: right;
 }
+body
+{
+    background-color: #080808;
+    font-family: sans-serif;
+    margin: 16px;
+    color: #8abeb7;
+}
+main, header
+{
+    padding: 16px;
+    padding-top: 32px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 1000px;
+    background-color: #080808;
+}
+nav a
+{
+    margin: 8px;
+    padding: 4px 12px;
+    background-color: #888;
+    color: white;
+    text-decoration: none;
+    
+    display: inline-block;
+}
+nav > a:hover
+{
+    background-color: #999;
+}
+header {
+	margin-bottom: 2px;
+}
